@@ -21,3 +21,12 @@ h1 {
 	width: 1200px;
 	height: 600px;
 }
+
+.pix-box {
+	border: 1px solid black;
+	display: inline-block;
+	clear: both;
+	height: 6px;
+	width: 12px;
+	margin: 0 0 0 0;
+}

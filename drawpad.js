@@ -1,24 +1,17 @@
 
-$(document).ready(function(){
+// $(document).ready(function(){})
 
-})
-
-function posttest() {
-		pixInput = document.getElementById("pixels").value; // problem here: either .value or .getElementById doesnt work
-		// var pixInput = "foo" // this works
-		window.alert(pixInput); // this is not the problem
-	}
 /*
-function gridmaker(x) {
-	for (var i = 0; i < x.length; i++) {
-		$("#big-ass-grid").click(function() {
-			$("this").append(<div class="box"></div>)
-		})
-	};
+function posttest() {
+	pixInput = parseInt(document.getElementById("pixels").value);
+	window.alert(pixInput);
 }
-*/
-// grid-maker(pix)
-
-
-
-
+*/	
+function gridmaker() {
+	pixInput = parseInt(document.getElementById("pixels").value);
+	for (var i = 0; i < pixInput; i++) {
+		$("#big-ass-grid").append("<div class='pix-box'></div>")
+		// something to make buttons disappear or otherwise deactivate-else it'll fuck up
+	}
+	$(".box").addclass("pix-box");
+}
