@@ -1,0 +1,7 @@
+Drawpad Planning:
+
+-Make a text box asking for a number input (creates "x") and a button to submit
+-Make a JS function that takes a # as input "x"
+-Use JQ to create the function, which makes a square grid of x boxes
+-Box width/height is calculated as (width/height of page in px)/(sq root of x)
+-Each box gets a hover function

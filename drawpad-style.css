@@ -1,0 +1,23 @@
+* {
+	font-family: 'Shadows Into Light';
+}
+
+h1 {
+	display: inline-block;
+	text-align: left;
+	border: 5px solid black;
+	float: left;
+	font-size: 3em;
+	margin: 0 0 0 0;
+}
+
+#inputs {
+	text-align: left;	
+	clear: both;
+}
+
+#big-ass-grid {
+	border: 1px dashed black;
+	width: 1200px;
+	height: 600px;
+}
