@@ -21,8 +21,6 @@ function gridmaker() {
 	// something here to make buttons disappear or otherwise deactivate-else it'll fuck up
 }
 
-/*
 function gridlines() {
 	$(".pix-box").css("border-style", "dashed");
-}
-*/
+};
