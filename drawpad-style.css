@@ -23,10 +23,9 @@ h1 {
 }
 
 .pix-box {
+	float: left;
+	height: 60px;
+	width: 60px;
+	padding: 0px;
 	border: 1px solid black;
-	display: inline-block;
-	clear: both;
-	height: 6px;
-	width: 12px;
-	margin: 0 0 0 0;
 }
