@@ -1,26 +1,25 @@
-
-// $(document).ready(function(){})
-
-/*
-function posttest() {
-	pixInput = parseInt(document.getElementById("pixels").value);
-	window.alert(pixInput);
-}
-*/	
 function gridmaker() {
 	var pixInput = parseInt(document.getElementById("pixels").value);
 	var totalPix = Math.pow(pixInput, 2)/2;
+	$(".pix-box").remove();
 	for (var i = 0; i < totalPix; i++) {
 		$("#big-ass-grid").append("<div class='pix-box'></div>")
 	};
-
 	var calc_width = ((1200-(2*pixInput))/pixInput);
-	window.alert(calc_width)
 	$(".pix-box").css("width", calc_width+"px");
 	$(".pix-box").css("height", calc_width+"px");
-	// something here to make buttons disappear or otherwise deactivate-else it'll fuck up
+	boxcolor();
 }
 
 function gridlines() {
-	$(".pix-box").css("border-style", "dashed");
+	$(".pix-box").css("border-style", "solid");
+};
+
+
+function boxcolor() {
+	$(".pix-box").hover(function(){
+		$(this).css("background-color", "red")
+		}, function(){
+		$(this).css("background-color", "black")
+	})
 };

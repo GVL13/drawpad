@@ -27,5 +27,5 @@ h1 {
 	height: 60px;
 	width: 60px;
 	padding: 0px;
-	border: 1px solid black;
+	border: 1px none gray;
 }
